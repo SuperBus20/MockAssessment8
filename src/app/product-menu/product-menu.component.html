@@ -1,0 +1,5 @@
+<h1>Product Menu</h1>
+<li *ngFor="let product of products">
+    {{product.name}} ~ {{product.productID}} ~ {{product.price | currency}}
+</li>
+<p>Total number of products: {{ products.length }}</p>
